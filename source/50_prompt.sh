@@ -1,4 +1,4 @@
-# My awesome bash prompt
+# The Cowboy bash prompt
 #
 # Copyright (c) 2012 "Cowboy" Ben Alman
 # Licensed under the MIT license.

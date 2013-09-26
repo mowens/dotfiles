@@ -1,17 +1,17 @@
 #!/bin/bash
 
-echo 'Dotfiles - "Cowboy" Ben Alman - http://benalman.com/'
+echo 'Dotfiles - Michael Owens - https://mowens.com/'
 
 if [[ "$1" == "-h" || "$1" == "--help" ]]; then cat <<HELP
 
 Usage: $(basename "$0")
 
 See the README for documentation.
-https://github.com/cowboy/dotfiles
+https://github.com/mowens/dotfiles
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2013 Michael Owens, based heavily on the dotfiles of "Cowboy" Ben Alman
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://mowens.com/about/license/
 HELP
 exit; fi
 
@@ -169,7 +169,7 @@ if [[ ! -d ~/.dotfiles ]]; then
   new_dotfiles_install=1
   # ~/.dotfiles doesn't exist? Clone it!
   e_header "Downloading dotfiles"
-  git clone --recursive git://github.com/cowboy/dotfiles.git ~/.dotfiles
+  git clone --recursive git://github.com/mowens/dotfiles.git ~/.dotfiles
   cd ~/.dotfiles
 else
   # Make sure we have the latest files.
